@@ -1,0 +1,311 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WarehouseAcceptance.Web
+</name>
+</assembly>
+<members>
+<member name="T:WarehouseAcceptance.Web.My.MyWebExtension">
+ <summary>
+ Modulo utilizzato per definire le proprietà disponibili nello spazio dei nomi My per i progetti Web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:WarehouseAcceptance.Web.My.MyWebExtension.Computer">
+ <summary>
+ Restituisce informazioni sul computer host.
+ </summary>
+</member>
+<member name="P:WarehouseAcceptance.Web.My.MyWebExtension.User">
+ <summary>
+ Restituisce informazioni sull'utente Web corrente.
+ </summary>
+</member>
+<member name="P:WarehouseAcceptance.Web.My.MyWebExtension.Request">
+ <summary>
+ Restituisce l'oggetto Request.
+ </summary>
+</member>
+<member name="P:WarehouseAcceptance.Web.My.MyWebExtension.Response">
+ <summary>
+ Restituisce l'oggetto Response.
+ </summary>
+</member>
+<member name="P:WarehouseAcceptance.Web.My.MyWebExtension.Log">
+ <summary>
+ Restituisce l'oggetto AspLog.
+ </summary>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._lblCodice">
+<summary>
+Controllo lblCodice.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._txtCodice">
+<summary>
+Controllo txtCodice.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._rfvCodice">
+<summary>
+Controllo rfvCodice.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._lblRagioneSociale">
+<summary>
+Controllo lblRagioneSociale.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._txtRagioneSociale">
+<summary>
+Controllo txtRagioneSociale.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._rfvRagioneSociale">
+<summary>
+Controllo rfvRagioneSociale.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._lblPartitaIVA">
+<summary>
+Controllo lblPartitaIVA.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._txtPartitaIVA">
+<summary>
+Controllo txtPartitaIVA.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._rfvPartitaIVA">
+<summary>
+Controllo rfvPartitaIVA.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._lblEmail">
+<summary>
+Controllo lblEmail.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._txtEmail">
+<summary>
+Controllo txtEmail.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._revEmail">
+<summary>
+Controllo revEmail.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._lblTelefono">
+<summary>
+Controllo lblTelefono.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._txtTelefono">
+<summary>
+Controllo txtTelefono.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._btnSalva">
+<summary>
+Controllo btnSalva.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._btnAnnulla">
+<summary>
+Controllo btnAnnulla.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._btnElimina">
+<summary>
+Controllo btnElimina.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._lblMessaggio">
+<summary>
+Controllo lblMessaggio.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._txtRicerca">
+<summary>
+Controllo txtRicerca.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._btnRicerca">
+<summary>
+Controllo btnRicerca.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.GestioneFornitori._gvFornitori">
+<summary>
+Controllo gvFornitori.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.SiteMaster._head">
+<summary>
+Controllo head.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.SiteMaster._form1">
+<summary>
+Controllo form1.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.SiteMaster._MainContent">
+<summary>
+Controllo MainContent.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.Site_Mobile._Head1">
+<summary>
+Controllo Head1.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.Site_Mobile._HeadContent">
+<summary>
+Controllo HeadContent.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.Site_Mobile._form1">
+<summary>
+Controllo form1.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.Site_Mobile._FeaturedContent">
+<summary>
+Controllo FeaturedContent.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.Site_Mobile._MainContent">
+<summary>
+Controllo MainContent.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+<member name="F:WarehouseAcceptance.Web.Site_Mobile._ViewSwitcher1">
+<summary>
+Controllo ViewSwitcher1.
+</summary>
+<remarks>
+Campo generato automaticamente.
+Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+</remarks>
+</member>
+</members>
+</doc>
