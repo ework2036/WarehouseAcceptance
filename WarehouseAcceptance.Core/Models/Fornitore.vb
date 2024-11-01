@@ -10,5 +10,6 @@ Namespace WarehouseAcceptance.Core.Models
         Public Property Email As String
         Public Property Telefono As String
         Public Property DataCreazione As DateTime = DateTime.Now
+        Public Overridable Property Templates As List(Of Template)
     End Class
 End Namespace
