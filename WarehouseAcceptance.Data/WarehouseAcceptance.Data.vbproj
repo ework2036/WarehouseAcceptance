@@ -120,6 +120,10 @@
       <DependentUpon>202410281402324_InitialCreate.vb</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202410281402324_InitialCreate.vb" />
+    <Compile Include="Migrations\202411010952375_AddTemplatesAndTemplateAreas.Designer.vb">
+      <DependentUpon>202411010952375_AddTemplatesAndTemplateAreas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202411010952375_AddTemplatesAndTemplateAreas.vb" />
     <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -138,10 +142,14 @@
     </Compile>
     <Compile Include="Repositories\BaseRepository.vb" />
     <Compile Include="Repositories\FornitoreRepository.vb" />
+    <Compile Include="Repositories\TemplateRepository.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202410281402324_InitialCreate.resx">
       <DependentUpon>202410281402324_InitialCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202411010952375_AddTemplatesAndTemplateAreas.resx">
+      <DependentUpon>202411010952375_AddTemplatesAndTemplateAreas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

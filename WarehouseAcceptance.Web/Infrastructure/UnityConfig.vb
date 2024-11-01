@@ -7,8 +7,10 @@ Imports Unity.Registration
 Imports Unity.Resolution
 Imports WarehouseAcceptance.Core.WarehouseAcceptance.Core.Interfaces
 Imports WarehouseAcceptance.Core.WarehouseAcceptance.Core.Services
+Imports WarehouseAcceptance.Core.WarehouseAcceptance.Core.WarehouseAcceptance.Core.Services
 Imports WarehouseAcceptance.Data.WarehouseAcceptance.Data.Context
 Imports WarehouseAcceptance.Data.WarehouseAcceptance.Data.Repositories
+Imports WarehouseAcceptance.Data.WarehouseAcceptance.Data.WarehouseAcceptance.Data.Repositories
 
 Namespace WarehouseAcceptance.Web.Infrastructure
     Public NotInheritable Class UnityConfig
@@ -29,13 +31,15 @@ Namespace WarehouseAcceptance.Web.Infrastructure
 
         Private Shared Sub RegisterTypes(container As IUnityContainer)
             ' Register DbContext
-            container.RegisterType(GetType(WarehouseContext), New HierarchicalLifetimeManager())
+            container.RegisterType(Of WarehouseContext)(New HierarchicalLifetimeManager())
 
-            ' Register Repository
-            container.RegisterType(GetType(IFornitoreRepository), GetType(FornitoreRepository), New HierarchicalLifetimeManager())
+            ' Register Repositories
+            container.RegisterType(Of IFornitoreRepository, FornitoreRepository)(New HierarchicalLifetimeManager())
+            container.RegisterType(Of ITemplateRepository, TemplateRepository)(New HierarchicalLifetimeManager())
 
-            ' Register Service
-            container.RegisterType(GetType(IFornitoreService), GetType(FornitoreService), New HierarchicalLifetimeManager())
+            ' Register Services
+            container.RegisterType(Of IFornitoreService, FornitoreService)(New HierarchicalLifetimeManager())
+            container.RegisterType(Of ITemplateService, TemplateService)(New HierarchicalLifetimeManager())
         End Sub
     End Class
 End Namespace

@@ -121,9 +121,12 @@
     <Compile Include="Interfaces\IBaseRepository.vb" />
     <Compile Include="Interfaces\IFornitoreRepository.vb" />
     <Compile Include="Interfaces\IFornitoreService.vb" />
+    <Compile Include="Interfaces\ITemplateRepository.vb" />
+    <Compile Include="Interfaces\ITemplateService.vb" />
     <Compile Include="Models\DDT.vb" />
     <Compile Include="Models\Fornitore.vb" />
     <Compile Include="Models\RigaDDT.vb" />
+    <Compile Include="Models\Template.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -140,6 +143,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Services\FornitoreService.vb" />
+    <Compile Include="Services\TemplateService.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
