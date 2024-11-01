@@ -1,0 +1,26 @@
+8# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vsidx
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache files
+*.cache
+*.dtbcache.json
+*.vbproj.CoreCompileInputs.cache
+*AssemblyReference.cache
+*.vbproj.AssemblyReference.cache
+
+# Other files to ignore
+*.dll
+*.pdb
+*.backup.json
+DocumentLayout.json
